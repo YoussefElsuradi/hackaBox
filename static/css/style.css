@@ -1,0 +1,26 @@
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/598/482/363/black-black-and-white-anonymous-hackers-wallpaper-preview.jpg');
+  margin: 0%;
+  padding: 0px;
+}
+h1 {
+  font-family: American Typewriter;
+  color: grey;
+  text-align: center;
+  border-radius: 15px 50px;
+  border: 10px solid black;
+  background:darkgreen;
+  margin-left: 750px;
+  margin-right: 300px;
+  margin-top: 0px;
+  padding: 50px;
+  width: 300px
+}
+form{margin-left: 850px;
+    color: grey;
+}
+
+p7 {
+    margin-left: 750px;
+    text-align: center;
+}
