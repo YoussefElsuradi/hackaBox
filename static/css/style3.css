@@ -1,13 +1,15 @@
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-  background-image: url('https://wallpaperplay.com/walls/full/4/9/2/161160.jpg');
+  background-image: url('https://quotesbook.com/quotes/funny-memes/unknown-authors/hey-human-check-these-funny-dog-memes-3840x2160-4400.jpg');
   background-size: cover;
   height: 100vh;
   padding:0;
-  margin:0;
 }
 
+.meme {
+    margin-left:60%;
+    margin-top: 25%;
+}
 
 }
 h1 {
