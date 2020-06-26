@@ -42,5 +42,3 @@ def password2():
 def password5():
     return render_template('password.html', time = datetime.now())
 
-
-
