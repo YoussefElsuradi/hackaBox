@@ -19,6 +19,17 @@ h1 {
 form{margin-left: 850px;
     color: grey;
 }
+.cookie {
+  font-family: American Typewriter;
+  color: grey;
+  text-align: center;
+}
+.hint {
+  text-align: center;
+  margin-left: 48%;
+  font-family: American Typewriter;
+  color: black;
+}
 
 h2 {
     text-align: center;

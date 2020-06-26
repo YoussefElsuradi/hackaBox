@@ -25,6 +25,18 @@ def password():
     else:
         return render_template('index.html', time = datetime.now())
 
+@app.route('/index3')
+def index3():
+    return render_template('index3.html', time = datetime.now())
+@app.route('/password6', methods = ["GET", "POST"])
+def password6():
+    password7 = request.form["password"]
+    print(password7)
+    if password7 == "eikooc":
+        return render_template('results3.html', time = datetime.now())
+    else:
+        return render_template('index3.html', time = datetime.now())
+
 @app.route('/index2')
 def index2():
     return render_template('index2.html', time = datetime.now())
@@ -37,6 +49,8 @@ def password2():
         return render_template('results2.html', time = datetime.now())
     else:
         return render_template('index2.html', time = datetime.now())
+
+
 
 @app.route('/password')
 def password5():
